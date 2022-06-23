@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="users.js"></script>
+        <title>VidM User</title>
+    </head>
+    <body>   
+        <!-- Top -->
+        <h1>
+            <!-- Logo -->
+            <a href="index.html"><img src="images/logo.png" width="100px"></a>
+            
+            <!-- Navigation Menu -->
+            <select id="navMenu" onchange="window.open(this.value,'_self');">                
+                <option value="#">Navigation</option>
+                <option value="#">-----------------------</option>
+                <option value="index.html">Home</option>
+                <option value="request.html">Add Video</option>                 
+                <option value="about.html">About</option>                         
+            </select>
+        </h1>
+        <hr>       
+         <img style="vertical-align:middle" src="images/pfpz/default-pfp.png" width="100px" id="pfp">
+         <span id="username">user</span>
+        <hr>
+        <b>"<span id="quote">hi</span>"</b>
+        <br><br>
+        <b>Joined:</b> <span id="joindate">June 1, 2002</span><br>
+        <b>Videos:</b> <span id="vids">0</span>
+        <hr>
+        Enter ID <input placeholder="0" id="findId">       
+        <button onclick="findUser()">Find</button>
+        <hr>
+        <center>
+        2002 WebGame2k
+       </center>
+        
+       <style>
+        #username {
+									font-size: 18px;
+        }
+       </style>
+    </body>
+</html>

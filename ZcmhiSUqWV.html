@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="users.js"></script>
+        <title>Effects - VidM</title>
+    </head>
+    <body>   
+        <!-- Top -->
+        <h1>
+            <!-- Logo -->
+            <a href="index.html"><img src="images/logo.png" width="100px"></a>
+            
+            <!-- Navigation Menu -->
+            <select id="navMenu" onchange="window.open(this.value,'_self');">                
+                <option value="#">Navigation</option>
+                <option value="#">-----------------------</option>
+                <option value="index.html">Home</option>
+                <option value="request.html">Add Video</option>                 
+                <option value="about.html">About</option>                         
+            </select>
+            <!-- End of Navigation Menu -->
+            
+        </h1>
+        <hr>
+         <h2>Effects</h2>
+         <video width="400px" height="240px" controls poster="images/thumbnails/d-thumb.png">
+          <source id="video" src="videos/ZcmhiSUqWV.mp4"></source>
+          Your browser does not support the video tag.<br>
+          Download it <a href="videos/ZcmhiSUqWV.mp4">here</a>
+         </video><br>
+         <div style="color:red;">EPILEPSY WARNING</div>
+         Rating: 
+         <div class="up"></div>
+         <div class="up"></div>
+         <div class="up"></div>
+         <div class="hm"></div>
+         <div class="hm"></div>
+         <hr>
+         video i made messing around with YouCuts effects.
+         <br>
+         <span class="tiny-gray">added june 2002</span>
+        <hr>       
+        
+        <!-- Beginning of Author code -->
+        <div id="qzp" onclick="alert('UserID: 1');showUser();">
+         <img style="vertical-align:middle" src="images/pfpz/pfp00.png" width="46px">
+         <span>WebGame2k</span>
+        </div>
+        <!-- End of Author code -->
+        
+        <hr>
+        
+        <!-- Footer? -->
+        <center>       
+        <!-- Theme Switcher -->
+        <script src="themes.js"></script>
+        <select id="themeC" onchange="setTheme();">                
+             <option value="#">Theme</option>
+             <option value="#">-----------------------</option>
+             <option value="1">Default</option>
+             <option value="2">Dark</option>                                          
+        </select> | 
+        <!-- End of Theme Switcher -->
+        <span class="footer">2002 WebGame2k</span>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>VidM</title>
+        <script src="themes.js"></script>
+    </head>
+    <body>
+        <!-- Top -->
+        <h1>
+            <!-- Logo -->
+            <a href="index.html"><img src="images/logo.png" width="100px"></a>
+            
+            <!-- Navigation Menu -->
+            <select id="navMenu" onchange="window.open(this.value,'_self');">                
+                <option value="#">Navigation</option>
+                <option value="#">-----------------------</option>
+                <option value="index.html">Home</option>
+                <option value="request.html">Add Video</option>                 
+                <option value="about.html">About</option>                         
+            </select>
+        </h1>
+        
+        <!-- Stuff -->
+        <hr>
+        <p>o_o</p>
+        <hr>
+        
+        <!-- Footer? -->
+        <center>
+        <span class="tiny-gray">compatible with chrome, firefox, and palemoon</span><br>
+        <!-- Theme Switcher -->
+        <select id="themeC" onchange="setTheme();">                
+             <option value="#">Theme</option>
+             <option value="#">-----------------------</option>
+             <option value="1">Default</option>
+             <option value="2">Dark</option>                                          
+        </select> | 
+        <!-- End of Theme Switcher -->
+        <span class="footer">2002 WebGame2k</span>
+        </center>
+    </body>
+</html>

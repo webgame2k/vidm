@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Test video - VidM</title>
+    </head>
+    <body>   
+        <!-- Top -->
+        <h1>
+            <!-- Logo -->
+            <a href="index.html"><img src="images/logo.png" width="100px"></a>
+            
+            <!-- Navigation Menu -->
+            <select id="navMenu" onchange="window.open(this.value,'_self');">                
+                <option value="#">Navigation</option>
+                <option value="#">-----------------------</option>
+                <option value="index.html">Home</option>
+                <option value="request.html">Add Video</option>                 
+                <option value="about.html">About</option>                         
+            </select>
+        </h1>
+        <hr>
+         <h2>Test video</h2>
+         <video width="200px" height="440px" controls poster="images/thumbnails/d-thumb.png">
+          <source id="video" src="videos/NYzMbYhPeT.mp4"></source>
+          Your browser does not support the video tag.<br>
+          Download it <a href="videos/NYzMbYhPeT.mp4"">here</a>
+         </video><br>
+         <hr>
+         something i made.<br>
+         <span class="tiny-gray">added june 25 2022</span>
+        <hr>
+        <!-- Beginning of Author code -->
+        <div id="qzp" onclick="alert('UserID: 1');showUser();">
+         <img style="vertical-align:middle" src="images/pfpz/pfp00.png" width="46px">
+         <span>WebGame2k</span>
+        </div>
+        <!-- End of Author code -->
+        <hr>
+               
+        <!-- Footer? -->
+        <center>       
+        <!-- Theme Switcher -->
+        <script src="themes.js"></script>
+        <select id="themeC" onchange="setTheme();">                
+             <option value="#">Theme</option>
+             <option value="#">-----------------------</option>
+             <option value="1">Default</option>
+             <option value="2">Dark</option>                                          
+        </select> | 
+        <!-- End of Theme Switcher -->
+        <span class="footer">2002 WebGame2k</span>
+        </center>
+    </body>
+</html>

@@ -1,3 +1,5 @@
+**UPDATE:** I'm not comfortable using github to manage this site: I'm just going to archive it.
+
 # VidM
 a crappy video repository i made on my phone lmao.
 
